@@ -5,9 +5,11 @@ const age = prompt('Сколько вам лет?');
 let access='';
 
 if (age > 18) {
-    access = "Доступ разрешен"
+    access = "Доступ разрешен";
+} else if (age < 18 && age > 16) {
+    access = "Доступ запрещен. Приходи через пару лет";
 } else {
-    access = "Доступ запрещен"
+    access = "Доступ запрещен.";
 }
 
 document.write(`<h4>${access}</h4>`);
