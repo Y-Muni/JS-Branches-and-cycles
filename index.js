@@ -6,7 +6,7 @@ let access='';
 
 if (age > 18) {
     access = "Доступ разрешен";
-} else if (age < 18 && age > 16) {
+} else if (age < 18 && age >= 16) {
     access = "Доступ запрещен. Приходи через пару лет";
 } else {
     access = "Доступ запрещен.";
