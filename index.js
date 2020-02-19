@@ -15,16 +15,16 @@ document.write("<h1>Hello from JS</h1>");
 // document.write(`<h4>${access}</h4>`);
 
 // Циклы
-let num = 0;
-let age = prompt('Сколько вам лет?');
+// let num = 0;
+// let age = prompt('Сколько вам лет?');
 
-while (true) {
-   if (age > 0 && age < 100) {
-        break;
-   }
-
-
-}
+// while (true) {
+//    if (age > 0 && age < 100) {
+//         // break;
+//         continue;
+//    }
+//    age = prompt("Некорректный ввод. Сколько вам лет?");
+// }
 
 
 
@@ -36,3 +36,7 @@ while (true) {
 //     }
 // }
 
+
+for (let i = 0; i < 10; i++) {
+    document.write(`<h4>${i}</h4>`);
+}
