@@ -17,8 +17,8 @@ document.write("<h1>Hello from JS</h1>");
 // Циклы
 let num = 0;
 
-while (num <= 10) {
+while (num < 10) {
     document.write(`<h4>${num}</h4>`);
-    num = num + 1;
+    num++;
 }
 
