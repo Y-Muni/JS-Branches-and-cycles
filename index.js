@@ -18,7 +18,7 @@ document.write("<h1>Hello from JS</h1>");
 let num = 0;
 
 while (num <= 10) {
-    
+    document.write(`<h4>${num}</h4>`);
+    num = num + 1;
 }
 
-document.write(`<h4>${num}</h4>`);
