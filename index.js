@@ -2,7 +2,7 @@ document.write("<h1>Hello from JS</h1>");
 
 const age = prompt('Сколько вам лет?');
 
-let access='';
+let access = (age > 18) ? 'Доступ разрешен' : 'Доступ запрещен';
 
 // if (age > 18) {
 //     access = "Доступ разрешен";
