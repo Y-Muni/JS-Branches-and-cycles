@@ -16,9 +16,23 @@ document.write("<h1>Hello from JS</h1>");
 
 // Циклы
 let num = 0;
+let age = prompt('Сколько вам лет?');
 
-while (num < 10) {
-    document.write(`<h4>${num}</h4>`);
-    num++;
+while (true) {
+   if (age > 0 && age < 100) {
+        break;
+   }
+
+
 }
+
+
+
+// while (num < 10) {
+//     document.write(`<h4>${num}</h4>`);
+//     num++;
+//     if (num == 8) {
+//         break;
+//     }
+// }
 
